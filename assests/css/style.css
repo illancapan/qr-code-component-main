@@ -58,7 +58,7 @@ body {
     width: 100%;
     height: auto;
     margin-top: 0;
-    background-color: #fff;
+    /* background-color: var(--light-gray); */
 }
 
 .card__img--qr {
@@ -81,6 +81,7 @@ body {
 
 .paragraph__paragraph {
     font-family: var(--font-family-outfit);
+    color: var(--grayish-blue);
     font-weight: 400;
     font-size: 15px;
 }
