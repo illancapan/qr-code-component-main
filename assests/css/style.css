@@ -32,11 +32,11 @@ html {
 }
 
 body {
-    background-color: blue;
+    width: 100vw;
 }
 
 .container {
-    background-color: brown;
+    background-color: var(--light-gray);
     width: 100vw;
     height: 100vh;
     display: flex;
@@ -46,15 +46,12 @@ body {
 }
 
 .card {
-    background-color: yellow;
     width: 320px;
     height: 500px;
-    padding: 10px;
-    /* display: flex;
-    flex-flow: column;
-    justify-content: center;
-    align-items: center; */
+    padding: 15px;
+    background-color: var(--white);
     color: #000;
+    border-radius: 10px;
 }
 
 .card__img {
@@ -64,21 +61,39 @@ body {
     background-color: #fff;
 }
 
-.card__h1 {
-    font-family: var(--font-family-outfit);
-    font-weight: 700;
-    font-size: 15px;
+.card__img--qr {
+    border-radius: 10px;
 }
 
-.card__paragraph {
+.paragraph {
+    padding: 26px;
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+}
+
+.paragraph__h1 {
+    font-family: var(--font-family-outfit);
+    font-weight: 700;
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.paragraph__paragraph {
     font-family: var(--font-family-outfit);
     font-weight: 400;
     font-size: 15px;
 }
 
 .attribution {
+    width: 320px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     font-size: 11px;
+    color: #000;
     text-align: center;
+    margin-top: 10px;
 }
 
 .attribution a {
