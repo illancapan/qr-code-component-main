@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@400;700&display=swap');
+
+:root {
+
+    /* - Mobile: 375px
+- Desktop: 1440px */
+
+    /* ## Colors */
+
+    --white: hsl(0, 0%, 100%);
+    --light-gray: hsl(212, 45%, 89%);
+    --grayish-blue: hsl(220, 15%, 55%);
+    --dark-blue: hsl(218, 44%, 22%);
+
+    /* ## Typography*/
+
+    --font-family-outfit: 'Outfit', sans-serif;
+
+    /* ### Body Copy  */
+
+    /* - Font size (paragraph): 15px */
+
+    /* ### Font
+
+- Family: [Outfit](https://fonts.google.com/specimen/Outfit)
+- Weights: 400, 700 */
+
+}
+
+html {
+    font-size: 100%;
+}
+
+body {
+    background-color: blue;
+}
+
+.container {
+    background-color: brown;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.card {
+    background-color: yellow;
+    width: 320px;
+    height: 500px;
+    padding: 10px;
+    /* display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center; */
+    color: #000;
+}
+
+.card__img {
+    width: 100%;
+    height: auto;
+    margin-top: 0;
+    background-color: #fff;
+}
+
+.card__h1 {
+    font-family: var(--font-family-outfit);
+    font-weight: 700;
+    font-size: 15px;
+}
+
+.card__paragraph {
+    font-family: var(--font-family-outfit);
+    font-weight: 400;
+    font-size: 15px;
+}
+
+.attribution {
+    font-size: 11px;
+    text-align: center;
+}
+
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}
